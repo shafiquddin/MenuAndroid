@@ -1,8 +1,8 @@
 package com.example.android.menu;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -20,13 +20,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        item = (Menu) findViewById(R.id.item1);
-        itemn = (Menu) findViewById(R.id.item2);
-        itemm = (Menu) findViewById(R.id.item3);
-        submit1 = (Button) findViewById(R.id.submit);
-        show1 = (Button) findViewById(R.id.show);
-        name1 = (TextView) findViewById(R.id.name);
-        password1 = (TextView) findViewById(R.id.password);
+        item = findViewById(R.id.item1);
+        itemn = findViewById(R.id.item2);
+        itemm = findViewById(R.id.item3);
+        submit1 = findViewById(R.id.submit);
+        show1 = findViewById(R.id.show);
+        name1 = findViewById(R.id.name);
+        password1 = findViewById(R.id.password);
         show1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "submitted", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void hi() {
+
     }
 }
 
