@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">menu</string>
+    <string name="search">search</string>
+    <string name="schedule">schedule</string>
+    <string name="appointment">appointment</string>
+    <string name="AboutUs">About Us</string>
+    <string name="before">Befor</string>
+    <string name="after">After</string>
+    <string name="till">till</string>
+    <string name="end">end</string>
+    <string name="contact">cantact</string>
+    <string name="whats">whatsApp</string>
+    <string name="name">name</string>
+    <string name="title_activity_show">Show</string>
+
+
+</resources>
